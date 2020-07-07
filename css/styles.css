@@ -103,6 +103,10 @@ body .vid-wishes .embedded-video {
   padding-bottom: 40px;
 }
 
+body .special-wishes-title {
+  font-family: "Architects Daughter", cursive;
+}
+
 body .special-wishes {
   margin-top: 2rem;
 }
@@ -111,5 +115,17 @@ body .wallOfLove .wallOfLove-title {
   margin-top: 2rem;
   font-family: "Architects Daughter", cursive;
   margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 5.5rem;
+}
+
+@media (max-width: 768px) {
+  body header nav {
+    display: none;
+    opacity: 0.2;
+  }
+  body .mini-collage div h4 {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
