@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+$heading_font: "Architects Daughter", cursive;
+$content_font: "font-family: 'Poppins', sans-serif";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  header {
+    position: relative;
+    nav {
+      margin: 0 auto;
+      width: 100%;
+      height: 70px;
+      opacity: 0.7;
+      position: absolute;
+      bottom: 5px;
+      display: flex;
+      align-items: center;
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        li {
+          margin: 0 auto;
+          a {
+            font-family: $heading_font;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .hero-section {
+    margin-top: 18rem;
+    h2 {
+      font-family: $heading_font;
+      width: 100%;
+      font-size: 2.4rem;
+    }
+    p {
+      font-family: $content_font;
+    }
+  }
+  .mini-collage {
+    position: relative;
+
+    margin-top: 18rem;
+    img {
+      width: 100%;
+    }
+    div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h4 {
+        font-size: 3rem;
+        font-family: $heading_font;
+      }
+    }
+  }
+  .wishes {
+    margin-top: 7rem;
+    p {
+      line-height: 1.8;
+      font-family: $content_font;
+    }
+  }
+  .vid-wishes {
+    background: url("/assets/images/BGcollage.jpg") center center no-repeat;
+    background-size: cover;
+    .embedded-video {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  .special-wishes {
+    margin-top: 2rem;
+  }
+  .wallOfLove {
+    .wallOfLove-title {
+      margin-top: 2rem;
+      font-family: $heading_font;
+      margin-bottom: 2rem;
+    }
+  }
+}

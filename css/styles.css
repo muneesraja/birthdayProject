@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  position: relative;
+}
+
+body header nav {
+  margin: 0 auto;
+  width: 100%;
+  height: 70px;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav ul li {
+  margin: 0 auto;
+}
+
+body header nav ul li a {
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
+}
+
+body .hero-section {
+  margin-top: 18rem;
+}
+
+body .hero-section h2 {
+  font-family: "Architects Daughter", cursive;
+  width: 100%;
+  font-size: 2.4rem;
+}
+
+body .hero-section p {
+  font-family: "font-family: 'Poppins', sans-serif";
+}
+
+body .mini-collage {
+  position: relative;
+  margin-top: 18rem;
+}
+
+body .mini-collage img {
+  width: 100%;
+}
+
+body .mini-collage div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .mini-collage div h4 {
+  font-size: 3rem;
+  font-family: "Architects Daughter", cursive;
+}
+
+body .wishes {
+  margin-top: 7rem;
+}
+
+body .wishes p {
+  line-height: 1.8;
+  font-family: "font-family: 'Poppins', sans-serif";
+}
+
+body .vid-wishes {
+  background: url("/assets/images/BGcollage.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+body .vid-wishes .embedded-video {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+body .special-wishes {
+  margin-top: 2rem;
+}
+
+body .wallOfLove .wallOfLove-title {
+  margin-top: 2rem;
+  font-family: "Architects Daughter", cursive;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=styles.css.map */
